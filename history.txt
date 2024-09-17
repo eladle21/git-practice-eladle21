@@ -1,0 +1,110 @@
+    1  git config --global user.name "Eli Ladle"
+    2  git config -- global user.email eladle21@gmail.com
+    3  git config --global user.email eladle21@gmail.com
+    4  git config --global init.defaultBranch main
+    5  git config --list
+   11  git init
+   14  rm -rf .git
+   19  rm -rf .git
+   21  cd Documents/Fall_24/git-practice
+   23  cd Documents/git-practice
+   33  git remove -v
+   34  git remote -v
+   35  git remote add origin <~https://github.com/eladle21/Stat386~>
+   36  git remote add origin <https://github.com/eladle21/Stat386>
+   37  git remote add origin https://github.com/eladle21/Stat386
+   38  git init
+   39  git remote add origin https://github.com/eladle21/Stat386
+   40  git push -u origin main
+   41  git add .
+   42  git commit -m "Initial add"
+   43  git branch
+   44  git branch -M main
+   45  git push -u origin main
+   48  cd Documents/Stat386/git-practice-eladle21
+   49  git init
+   51  git status
+   54  git status
+   55  git add file_1.txt file_2.txt
+   56  git status
+   57  git commit -m "create new files"
+   58  git status
+   59  git log
+   60  git status
+   61  git add file_1.txt
+   63  git commit -m "update file_1.txt"
+   64  git status
+   65  git add file_2.txt
+   66  git commit -m "update file_2.txt"
+   67  git log
+   69  git add Readme.md
+   70  git commit -m "add Readme.md"
+   71  echo "api-keys.txt" > .gitignore
+   72  git add .gitignore
+   73  git commit -m "add .gitignore"
+   75  git status
+   76  git status
+   77  git status
+   78  git branch features
+   79  git checkout features
+   80  git log
+   82  git add new_features.txt
+   83  git commit -m "add empty file"
+   84  git add new_features.txt
+   85  git commit -m "add content to new_features.txt"
+   86  git checkout main
+   87  git status
+   88  git add file_1.txt
+   89  git commmit -m "update file_1.txt"
+   90  git commit -m "update file_1.txt"
+   91  git merge features
+   93  cd Documents/Stat386/git-practice-eladle21
+   94  git checkout main
+   95  git add file_1.txt
+   96  git status
+   97  git commit -m "update file_1.txt"
+   98  git merge features
+  101  cd Documents/Stat386/git-practice-eladle21
+  102  git log
+  103  cd Documents/Stat386/git-practice-eladle21
+  104  git merge features
+  106  git commit -m "Commit changes"
+  107  git merge features
+  108  git log
+  110  git add new_features.txt
+  111  git commit -m "update new_features.txt on main"
+  112  git checkout features
+  114  git add new_features.txt
+  115  git commit -m "update new_features.txt on features"
+  116  git checkout main
+  117  git merge features
+  118  git add new_features.txt
+  119  git commit -m "resolve merge conflict in new_features.txt"
+  120  git branch -d features
+  121  git remote add origin git@github.com:eladle21/git-practice-eladle21.git
+  122  git push -u origin main
+  123  git clone git@github.com:eladle21/git-practice-eladle21.git
+  125  git push -u origin main
+  126  git branch -M main
+  130  git remote add origin git@github.com:eladle21/git-practice-eladle21.git
+  131  git push -u origin main
+  132  git clone git@github.com:eladle21/git-practice-hsanders-07.git
+  133  cd git-practice-hsanders-07
+  134  git checkout -b feature-eladle21
+  135  git add .
+  136  git commit -m "added some more truth"
+  137  git push origin feature-eladle21
+  138  git pull
+  139  git branch -M main
+  140  cd git-practice-eladle21
+  141  git branch -d feature-eladle21
+  142  git checkout -b feature-eladle21
+  143  git branch -d feature-eladle21
+  144  git pull
+  145  git branch -d feature-eladle21
+  146  git pull
+  147  git pull
+  151  cd /c/Users/elila/Documents/Stat386/git-practice-eladle21
+  152  git pull
+  153  git log --oneline > gitlog.txt~
+  154  history | grep git > history.txt
